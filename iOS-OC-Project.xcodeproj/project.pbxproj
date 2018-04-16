@@ -780,6 +780,7 @@
 				DEVELOPMENT_TEAM = E82T5RLF74;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/iOS-OC-Project/Support Files/PrefixHeader.pch";
 				INFOPLIST_FILE = "iOS-OC-Project/Support Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "github.com-jiliuliu.iOS-OC-Project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -796,6 +797,7 @@
 				DEVELOPMENT_TEAM = E82T5RLF74;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/iOS-OC-Project/Support Files/PrefixHeader.pch";
 				INFOPLIST_FILE = "iOS-OC-Project/Support Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "github.com-jiliuliu.iOS-OC-Project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
