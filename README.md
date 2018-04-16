@@ -11,7 +11,7 @@
 </p>
 
 <p>
-<h4>CALayer时间线研究</h4>
+<h4>CALayer时间线研究<a href = 'http://www.cnblogs.com/six6/p/8722938.html'>讲解blog</a></h4>
 <img src='./images/airplane.png' width=150></img>
 </p>
 
