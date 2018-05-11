@@ -38,6 +38,12 @@
 		EA9A55E3205FCF4E00056346 /* iOS_OC_ProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9A55E2205FCF4E00056346 /* iOS_OC_ProjectTests.m */; };
 		EA9A55EE205FCF4E00056346 /* iOS_OC_ProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9A55ED205FCF4E00056346 /* iOS_OC_ProjectUITests.m */; };
 		EA9A55FE205FD5C600056346 /* PageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9A55FD205FD5C600056346 /* PageView.m */; };
+		EAD00DDB208796840085131E /* Bluetooth.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD00DDA208796840085131E /* Bluetooth.m */; };
+		EAD00DDF2087992D0085131E /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD00DDE2087992D0085131E /* Helper.m */; };
+		EAD00DE220879ABD0085131E /* UIApplication+SIX.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD00DE120879ABD0085131E /* UIApplication+SIX.m */; };
+		EAD00DE520879FCB0085131E /* BluetoothVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD00DE420879FCB0085131E /* BluetoothVC.m */; };
+		EAD00DEA2087A5A00085131E /* BluetoothCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD00DE82087A5A00085131E /* BluetoothCell.m */; };
+		EAD00DEB2087A5A00085131E /* BluetoothCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAD00DE92087A5A00085131E /* BluetoothCell.xib */; };
 		EADE41E9207863A000C5A733 /* WaveLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EADE41E8207863A000C5A733 /* WaveLayer.m */; };
 		EADE41EC207863C400C5A733 /* WaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = EADE41EB207863C400C5A733 /* WaveView.m */; };
 		EADE41EF207863DF00C5A733 /* WaveVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EADE41EE207863DF00C5A733 /* WaveVC.m */; };
@@ -124,6 +130,18 @@
 		EA9A55EF205FCF4E00056346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA9A55FC205FD5C600056346 /* PageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageView.h; sourceTree = "<group>"; };
 		EA9A55FD205FD5C600056346 /* PageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageView.m; sourceTree = "<group>"; };
+		EAD00DD9208796840085131E /* Bluetooth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bluetooth.h; sourceTree = "<group>"; };
+		EAD00DDA208796840085131E /* Bluetooth.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bluetooth.m; sourceTree = "<group>"; };
+		EAD00DDD2087992D0085131E /* Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
+		EAD00DDE2087992D0085131E /* Helper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Helper.m; sourceTree = "<group>"; };
+		EAD00DE020879ABD0085131E /* UIApplication+SIX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIApplication+SIX.h"; sourceTree = "<group>"; };
+		EAD00DE120879ABD0085131E /* UIApplication+SIX.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+SIX.m"; sourceTree = "<group>"; };
+		EAD00DE320879FCB0085131E /* BluetoothVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BluetoothVC.h; sourceTree = "<group>"; };
+		EAD00DE420879FCB0085131E /* BluetoothVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BluetoothVC.m; sourceTree = "<group>"; };
+		EAD00DE62087A0D30085131E /* ShowProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowProtocol.h; sourceTree = "<group>"; };
+		EAD00DE72087A5A00085131E /* BluetoothCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BluetoothCell.h; sourceTree = "<group>"; };
+		EAD00DE82087A5A00085131E /* BluetoothCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BluetoothCell.m; sourceTree = "<group>"; };
+		EAD00DE92087A5A00085131E /* BluetoothCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BluetoothCell.xib; sourceTree = "<group>"; };
 		EADE41E7207863A000C5A733 /* WaveLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaveLayer.h; sourceTree = "<group>"; };
 		EADE41E8207863A000C5A733 /* WaveLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaveLayer.m; sourceTree = "<group>"; };
 		EADE41EA207863C400C5A733 /* WaveView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaveView.h; sourceTree = "<group>"; };
@@ -194,8 +212,6 @@
 			children = (
 				EA145804206C706200EAF442 /* HomeVC.h */,
 				EA145805206C706200EAF442 /* HomeVC.m */,
-				EA145814206C97F800EAF442 /* HomeModel.h */,
-				EA145815206C97F800EAF442 /* HomeModel.m */,
 				EA145821206DF7EB00EAF442 /* HomeViewModel.h */,
 				EA145822206DF7EB00EAF442 /* HomeViewModel.m */,
 				EA145824206E38CC00EAF442 /* HomeCell.h */,
@@ -217,6 +233,7 @@
 		EA145808206C7C1400EAF442 /* General */ = {
 			isa = PBXGroup;
 			children = (
+				EAD00DDC208798EE0085131E /* Tools */,
 				EA145817206D044500EAF442 /* SuperClass */,
 				EA145809206C7C3E00EAF442 /* Category */,
 			);
@@ -232,6 +249,8 @@
 				EA145812206C903B00EAF442 /* UIImage+SIX.m */,
 				EA14581B206D049F00EAF442 /* UIViewController+SIX.h */,
 				EA14581C206D049F00EAF442 /* UIViewController+SIX.m */,
+				EAD00DE020879ABD0085131E /* UIApplication+SIX.h */,
+				EAD00DE120879ABD0085131E /* UIApplication+SIX.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -239,6 +258,7 @@
 		EA145817206D044500EAF442 /* SuperClass */ = {
 			isa = PBXGroup;
 			children = (
+				EAD00DE62087A0D30085131E /* ShowProtocol.h */,
 				EA145818206D046C00EAF442 /* ShowVC.h */,
 				EA145819206D046C00EAF442 /* ShowVC.m */,
 				EA145829206E447C00EAF442 /* NavigationController.h */,
@@ -328,9 +348,12 @@
 				EA9A55CA205FCF4E00056346 /* AppDelegate.m */,
 				EA14580E206C8B5A00EAF442 /* TabBarController.h */,
 				EA14580F206C8B5A00EAF442 /* TabBarController.m */,
+				EA145814206C97F800EAF442 /* HomeModel.h */,
+				EA145815206C97F800EAF442 /* HomeModel.m */,
 				EA145807206C7BD600EAF442 /* Main */,
 				EA1457F8206C694F00EAF442 /* Animation */,
-				EA9A55FB205FD10300056346 /* 微博个人主页 */,
+				EAD00DD7208795F50085131E /* Scenes */,
+				EAD00DD22087930D0085131E /* Test */,
 				EA1457F9206C699900EAF442 /* Support Files */,
 			);
 			path = "iOS-OC-Project";
@@ -365,6 +388,53 @@
 				EA4808FA2063CAA30089EA3E /* PageViewController.m */,
 			);
 			path = "微博个人主页";
+			sourceTree = "<group>";
+		};
+		EAD00DD22087930D0085131E /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				EAD00DD3208793280085131E /* 蓝牙 */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		EAD00DD3208793280085131E /* 蓝牙 */ = {
+			isa = PBXGroup;
+			children = (
+				EAD00DD8208796580085131E /* core */,
+				EAD00DE320879FCB0085131E /* BluetoothVC.h */,
+				EAD00DE420879FCB0085131E /* BluetoothVC.m */,
+				EAD00DE72087A5A00085131E /* BluetoothCell.h */,
+				EAD00DE82087A5A00085131E /* BluetoothCell.m */,
+				EAD00DE92087A5A00085131E /* BluetoothCell.xib */,
+			);
+			path = "蓝牙";
+			sourceTree = "<group>";
+		};
+		EAD00DD7208795F50085131E /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				EA9A55FB205FD10300056346 /* 微博个人主页 */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		EAD00DD8208796580085131E /* core */ = {
+			isa = PBXGroup;
+			children = (
+				EAD00DD9208796840085131E /* Bluetooth.h */,
+				EAD00DDA208796840085131E /* Bluetooth.m */,
+			);
+			name = core;
+			sourceTree = "<group>";
+		};
+		EAD00DDC208798EE0085131E /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				EAD00DDD2087992D0085131E /* Helper.h */,
+				EAD00DDE2087992D0085131E /* Helper.m */,
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 		EADE41E52078602500C5A733 /* 水波动画 */ = {
@@ -522,6 +592,7 @@
 				EA14583B206F125700EAF442 /* VCLayerTimeLine.xib in Resources */,
 				EA145828206E38CC00EAF442 /* HomeCell.xib in Resources */,
 				EA9A55D3205FCF4E00056346 /* Assets.xcassets in Resources */,
+				EAD00DEB2087A5A00085131E /* BluetoothCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -594,11 +665,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAD00DEA2087A5A00085131E /* BluetoothCell.m in Sources */,
 				EA145813206C903B00EAF442 /* UIImage+SIX.m in Sources */,
+				EAD00DDB208796840085131E /* Bluetooth.m in Sources */,
+				EAD00DE520879FCB0085131E /* BluetoothVC.m in Sources */,
 				EA54433D207A18E300D7B39D /* WaterWaveLayer.m in Sources */,
 				EA544343207A2C1000D7B39D /* RDWave.m in Sources */,
 				EA9A55FE205FD5C600056346 /* PageView.m in Sources */,
 				EA54433A207A17D000D7B39D /* WaterWaveView.m in Sources */,
+				EAD00DE220879ABD0085131E /* UIApplication+SIX.m in Sources */,
 				EA9A55D9205FCF4E00056346 /* main.m in Sources */,
 				EA145823206DF7EB00EAF442 /* HomeViewModel.m in Sources */,
 				EA4808F82063BDDC0089EA3E /* ARScanView.m in Sources */,
@@ -611,6 +686,7 @@
 				EA14581A206D046C00EAF442 /* ShowVC.m in Sources */,
 				EA9A55CB205FCF4E00056346 /* AppDelegate.m in Sources */,
 				EA48090420650E110089EA3E /* ARScanBackgroundLayer.m in Sources */,
+				EAD00DDF2087992D0085131E /* Helper.m in Sources */,
 				EA14581D206D049F00EAF442 /* UIViewController+SIX.m in Sources */,
 				EA145816206C97F800EAF442 /* HomeModel.m in Sources */,
 				EADE41E9207863A000C5A733 /* WaveLayer.m in Sources */,

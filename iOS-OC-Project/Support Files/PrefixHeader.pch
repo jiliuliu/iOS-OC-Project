@@ -9,8 +9,10 @@
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
 
+#import "Helper.h"
 #import "UIViewController+SIX.h"
 #import "UIColor+SIX.h"
 #import "UIImage+SIX.h"
+#import "UIApplication+SIX.h"
 
 #endif /* PrefixHeader_pch */

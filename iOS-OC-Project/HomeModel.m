@@ -25,19 +25,23 @@ NSString * const HMVCName = @"vcName";
 }
 
 + (NSDictionary *)scenes {
-    return @{HMSectionTitles: @[@"经典动画"],
-             @"经典动画": @[@"VCARScan", @"", @""],
-             @"": @[@""],
-             @"": @[@""],
-             };
+    return nil;
+//    return @{HMSectionTitles: @[@"经典动画"],
+//             @"经典动画": @[@"VCARScan"],
+//             };
 }
 
 + (NSDictionary *)tests {
-    return @{HMSectionTitles: @[@"经典动画"],
-             @"经典动画": @[@"VCARScan", @"", @""],
-             @"": @[@""],
-             @"": @[@""],
+    return @{HMSectionTitles: @[@"功能"],
+             @"功能": @[@"BluetoothVC"],
              };
+}
+
++ (NSDictionary *)optimizations {
+    return nil;
+//    return @{HMSectionTitles: @[@"功能"],
+//             @"功能": @[@"BluetoothVC"],
+//             };
 }
 
 @end

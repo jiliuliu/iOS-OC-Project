@@ -18,7 +18,7 @@ UIKIT_EXTERN NSString * const HMVCName;
 + (NSDictionary *)animations;
 + (NSDictionary *)scenes;
 + (NSDictionary *)tests;
-
++ (NSDictionary *)optimizations;
 @end
 
 

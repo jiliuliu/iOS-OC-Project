@@ -22,7 +22,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    NSLog(@"viewDidLoad");
     
     [self setupUI];
 }
@@ -43,6 +42,10 @@
         NSUInteger index = [self.tabBarController.viewControllers indexOfObject:self.navigationController];
         if (index == 0) {
             _viewModel.totalData = [HomeModel animations];
+        } else if (index == 1) {
+            _viewModel.totalData = [HomeModel scenes];
+        } else if (index == 2) {
+            _viewModel.totalData = [HomeModel tests];
         }
     }
     return _viewModel;

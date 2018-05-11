@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="98" id="KGk-i7-Jjw" customClass="BluetoothCell">
+            <rect key="frame" x="0.0" y="0.0" width="319" height="98"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="319" height="97.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FpD-fl-xvC">
+                        <rect key="frame" x="16" y="11" width="287" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="Mjh-bS-JdZ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BYI-EW-0cU">
+                        <rect key="frame" x="16" y="37" width="287" height="48"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.5" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="FpD-fl-xvC" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="DTq-T3-Lm2"/>
+                    <constraint firstItem="FpD-fl-xvC" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="GGh-OV-z6Q"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="BYI-EW-0cU" secondAttribute="bottom" constant="2" id="TIR-vc-Zaf"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="BYI-EW-0cU" secondAttribute="trailing" id="cw8-Cc-lqm"/>
+                    <constraint firstItem="BYI-EW-0cU" firstAttribute="top" secondItem="FpD-fl-xvC" secondAttribute="bottom" constant="5" id="hlZ-4P-rao"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="FpD-fl-xvC" secondAttribute="trailing" id="nGy-0d-4bq"/>
+                    <constraint firstItem="BYI-EW-0cU" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="xef-v8-Vz6"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="label1" destination="FpD-fl-xvC" id="OPl-4W-nfS"/>
+                <outlet property="label2" destination="BYI-EW-0cU" id="twS-N8-Ene"/>
+            </connections>
+            <point key="canvasLocation" x="33.5" y="81"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -42,7 +42,7 @@
     waterWave.tag = 11;
     waterWave.waveColor = [UIColor purpleColor];
     [self.view addSubview:waterWave];
-    
+
     y += space;
     RDWave *rdwave = [[RDWave alloc] initWithFrame:CGRectMake(x, y, 100, 100) andText:@"RD"];
     rdwave.progress = 0.5;
@@ -68,7 +68,7 @@
     
     NSArray *strings = @[@"WaveView：用CAShapeLayer绘制波浪，CAKeyframeAnimation.path做流动效果。效果一般，性能中等",
                          @"WaterWaveView：异步绘制波浪图片，并做本地缓存，CABasicAnimation.transform做流动效果。效果最差，性能最优，但不支持波浪的上升下降",
-                         @"RDWave：CADisplayLink加drawRect实现，效果最好，性能最差"];
+                         @"RDWave：CADisplayLink加drawRect实现，效果最好，性能最差,cpu一直占10%"];
     
     CGFloat y = 84;
     CGFloat space = (self.view.bounds.size.height - y - 50) / 3;

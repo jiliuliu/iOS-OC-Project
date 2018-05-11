@@ -53,7 +53,7 @@
 //    CFTimeInterval addAnimationTime = CACurrentMediaTime();
     
     CAKeyframeAnimation *animation = [CAKeyframeAnimation animationWithKeyPath:@"position"];
-    animation.timeOffset =  CACurrentMediaTime() + 2; //修改的代码
+//    animation.timeOffset =  CACurrentMediaTime() + 2; //修改的代码
     animation.path = self.shapeLayer.path;
     animation.duration = 3;
     animation.delegate = self;
