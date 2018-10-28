@@ -9,7 +9,6 @@
 #import "TabBarController.h"
 #import "NavigationController.h"
 #import "HomeVC.h"
-#import <CoreGraphics/CoreGraphics.h>
 
 @interface TabBarController ()
 
@@ -21,7 +20,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    NSArray *titles = @[@"animation", @"scene", @"test", @"optimization"];
+    NSArray *titles = @[@"animation", @"scene", @"test", @"optimize"];
     UIFont *font = [UIFont systemFontOfSize:16];
     NSDictionary *textAttributes = @{
                                      NSForegroundColorAttributeName: [UIColor blackColor],

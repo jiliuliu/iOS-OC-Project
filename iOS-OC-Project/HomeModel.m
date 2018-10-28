@@ -17,7 +17,8 @@ NSString * const HMVCName = @"vcName";
 @implementation HomeModel
 
 + (NSDictionary *)animations {
-    return @{HMSectionTitles: @[@"经典动画", @"CALayer基础"],
+    return @{HMSectionTitles: @[@"TEST", @"经典动画", @"CALayer基础"],
+             @"TEST": @[@"VCTest"],
              @"经典动画": @[@"VCARScan", @"WaveVC"],
              @"CALayer基础": @[@"VCLayerTimeLine"],
              @"": @[@""],
@@ -25,15 +26,14 @@ NSString * const HMVCName = @"vcName";
 }
 
 + (NSDictionary *)scenes {
-    return nil;
-//    return @{HMSectionTitles: @[@"经典动画"],
-//             @"经典动画": @[@"VCARScan"],
-//             };
+    return @{HMSectionTitles: @[@"TextKit"],
+             @"TextKit": @[@"TextKitDemoVC"],
+             };
 }
 
 + (NSDictionary *)tests {
     return @{HMSectionTitles: @[@"功能"],
-             @"功能": @[@"BluetoothVC"],
+             @"功能": @[@"BluetoothVC", @"ExcelVC"],
              };
 }
 

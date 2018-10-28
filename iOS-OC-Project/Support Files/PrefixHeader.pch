@@ -14,5 +14,7 @@
 #import "UIColor+SIX.h"
 #import "UIImage+SIX.h"
 #import "UIApplication+SIX.h"
+#import "UIView+SIX.h"
+#import "SIXConst.h"
 
 #endif /* PrefixHeader_pch */

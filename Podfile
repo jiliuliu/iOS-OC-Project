@@ -4,5 +4,5 @@ target ‘iOS-OC-Project’ do
 inhibit_all_warnings!
 
 pod 'MJRefresh'
-
+pod 'SIXRichEditor'
 end

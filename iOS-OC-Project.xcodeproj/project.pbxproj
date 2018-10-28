@@ -38,15 +38,22 @@
 		EA9A55E3205FCF4E00056346 /* iOS_OC_ProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9A55E2205FCF4E00056346 /* iOS_OC_ProjectTests.m */; };
 		EA9A55EE205FCF4E00056346 /* iOS_OC_ProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9A55ED205FCF4E00056346 /* iOS_OC_ProjectUITests.m */; };
 		EA9A55FE205FD5C600056346 /* PageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9A55FD205FD5C600056346 /* PageView.m */; };
+		EAC1889A212EA89600462512 /* VCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC18899212EA89600462512 /* VCTest.m */; };
+		EAC188A2212EB31000462512 /* SIXConst.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC188A1212EB31000462512 /* SIXConst.m */; };
+		EAC188AE212EB6A300462512 /* UIView+SIX.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC188AD212EB6A300462512 /* UIView+SIX.m */; };
 		EAD00DDB208796840085131E /* Bluetooth.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD00DDA208796840085131E /* Bluetooth.m */; };
 		EAD00DDF2087992D0085131E /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD00DDE2087992D0085131E /* Helper.m */; };
 		EAD00DE220879ABD0085131E /* UIApplication+SIX.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD00DE120879ABD0085131E /* UIApplication+SIX.m */; };
 		EAD00DE520879FCB0085131E /* BluetoothVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD00DE420879FCB0085131E /* BluetoothVC.m */; };
 		EAD00DEA2087A5A00085131E /* BluetoothCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD00DE82087A5A00085131E /* BluetoothCell.m */; };
 		EAD00DEB2087A5A00085131E /* BluetoothCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAD00DE92087A5A00085131E /* BluetoothCell.xib */; };
+		EADC51F8213D16420090408B /* VCTest.xib in Resources */ = {isa = PBXBuildFile; fileRef = EADC51F7213D16420090408B /* VCTest.xib */; };
 		EADE41E9207863A000C5A733 /* WaveLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EADE41E8207863A000C5A733 /* WaveLayer.m */; };
 		EADE41EC207863C400C5A733 /* WaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = EADE41EB207863C400C5A733 /* WaveView.m */; };
 		EADE41EF207863DF00C5A733 /* WaveVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EADE41EE207863DF00C5A733 /* WaveVC.m */; };
+		EAF0A8F621057BC300ADC972 /* ExcelVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF0A8F521057BC300ADC972 /* ExcelVC.m */; };
+		EAF0A8F92105C1F200ADC972 /* ExcelShareItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF0A8F82105C1F200ADC972 /* ExcelShareItem.m */; };
+		EAF954E621080CA0000F3A43 /* TextKitDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF954E521080CA0000F3A43 /* TextKitDemoVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -130,6 +137,12 @@
 		EA9A55EF205FCF4E00056346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA9A55FC205FD5C600056346 /* PageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageView.h; sourceTree = "<group>"; };
 		EA9A55FD205FD5C600056346 /* PageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageView.m; sourceTree = "<group>"; };
+		EAC18898212EA89600462512 /* VCTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VCTest.h; sourceTree = "<group>"; };
+		EAC18899212EA89600462512 /* VCTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCTest.m; sourceTree = "<group>"; };
+		EAC188A0212EB31000462512 /* SIXConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SIXConst.h; sourceTree = "<group>"; };
+		EAC188A1212EB31000462512 /* SIXConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SIXConst.m; sourceTree = "<group>"; };
+		EAC188AC212EB6A300462512 /* UIView+SIX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+SIX.h"; sourceTree = "<group>"; };
+		EAC188AD212EB6A300462512 /* UIView+SIX.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+SIX.m"; sourceTree = "<group>"; };
 		EAD00DD9208796840085131E /* Bluetooth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bluetooth.h; sourceTree = "<group>"; };
 		EAD00DDA208796840085131E /* Bluetooth.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bluetooth.m; sourceTree = "<group>"; };
 		EAD00DDD2087992D0085131E /* Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
@@ -142,12 +155,19 @@
 		EAD00DE72087A5A00085131E /* BluetoothCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BluetoothCell.h; sourceTree = "<group>"; };
 		EAD00DE82087A5A00085131E /* BluetoothCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BluetoothCell.m; sourceTree = "<group>"; };
 		EAD00DE92087A5A00085131E /* BluetoothCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BluetoothCell.xib; sourceTree = "<group>"; };
+		EADC51F7213D16420090408B /* VCTest.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VCTest.xib; sourceTree = "<group>"; };
 		EADE41E7207863A000C5A733 /* WaveLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaveLayer.h; sourceTree = "<group>"; };
 		EADE41E8207863A000C5A733 /* WaveLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaveLayer.m; sourceTree = "<group>"; };
 		EADE41EA207863C400C5A733 /* WaveView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaveView.h; sourceTree = "<group>"; };
 		EADE41EB207863C400C5A733 /* WaveView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaveView.m; sourceTree = "<group>"; };
 		EADE41ED207863DF00C5A733 /* WaveVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaveVC.h; sourceTree = "<group>"; };
 		EADE41EE207863DF00C5A733 /* WaveVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaveVC.m; sourceTree = "<group>"; };
+		EAF0A8F421057BC300ADC972 /* ExcelVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExcelVC.h; sourceTree = "<group>"; };
+		EAF0A8F521057BC300ADC972 /* ExcelVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExcelVC.m; sourceTree = "<group>"; };
+		EAF0A8F72105C1F200ADC972 /* ExcelShareItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExcelShareItem.h; sourceTree = "<group>"; };
+		EAF0A8F82105C1F200ADC972 /* ExcelShareItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExcelShareItem.m; sourceTree = "<group>"; };
+		EAF954E421080CA0000F3A43 /* TextKitDemoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextKitDemoVC.h; sourceTree = "<group>"; };
+		EAF954E521080CA0000F3A43 /* TextKitDemoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextKitDemoVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +203,13 @@
 				B363D56364DEA0E1991B7902 /* Pods-iOS-OC-Project.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		EA0AB15B2183FD530097DEA8 /* 今日头条首页 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "今日头条首页";
 			sourceTree = "<group>";
 		};
 		EA1457F8206C694F00EAF442 /* Animation */ = {
@@ -233,6 +260,7 @@
 		EA145808206C7C1400EAF442 /* General */ = {
 			isa = PBXGroup;
 			children = (
+				EAC1889F212EB29D00462512 /* Const */,
 				EAD00DDC208798EE0085131E /* Tools */,
 				EA145817206D044500EAF442 /* SuperClass */,
 				EA145809206C7C3E00EAF442 /* Category */,
@@ -251,6 +279,8 @@
 				EA14581C206D049F00EAF442 /* UIViewController+SIX.m */,
 				EAD00DE020879ABD0085131E /* UIApplication+SIX.h */,
 				EAD00DE120879ABD0085131E /* UIApplication+SIX.m */,
+				EAC188AC212EB6A300462512 /* UIView+SIX.h */,
+				EAC188AD212EB6A300462512 /* UIView+SIX.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -350,6 +380,10 @@
 				EA14580F206C8B5A00EAF442 /* TabBarController.m */,
 				EA145814206C97F800EAF442 /* HomeModel.h */,
 				EA145815206C97F800EAF442 /* HomeModel.m */,
+				EAC18898212EA89600462512 /* VCTest.h */,
+				EAC18899212EA89600462512 /* VCTest.m */,
+				EADC51F7213D16420090408B /* VCTest.xib */,
+				EAC1889B212EA9A700462512 /* chaos */,
 				EA145807206C7BD600EAF442 /* Main */,
 				EA1457F8206C694F00EAF442 /* Animation */,
 				EAD00DD7208795F50085131E /* Scenes */,
@@ -390,9 +424,26 @@
 			path = "微博个人主页";
 			sourceTree = "<group>";
 		};
+		EAC1889B212EA9A700462512 /* chaos */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = chaos;
+			sourceTree = "<group>";
+		};
+		EAC1889F212EB29D00462512 /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				EAC188A0212EB31000462512 /* SIXConst.h */,
+				EAC188A1212EB31000462512 /* SIXConst.m */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
 		EAD00DD22087930D0085131E /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				EAF0A8F321057B7C00ADC972 /* Excel生成 系统分享 */,
 				EAD00DD3208793280085131E /* 蓝牙 */,
 			);
 			path = Test;
@@ -414,6 +465,8 @@
 		EAD00DD7208795F50085131E /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				EA0AB15B2183FD530097DEA8 /* 今日头条首页 */,
+				EAF954E321080C6A000F3A43 /* TextKit */,
 				EA9A55FB205FD10300056346 /* 微博个人主页 */,
 			);
 			path = Scenes;
@@ -471,6 +524,26 @@
 			path = core1;
 			sourceTree = "<group>";
 		};
+		EAF0A8F321057B7C00ADC972 /* Excel生成 系统分享 */ = {
+			isa = PBXGroup;
+			children = (
+				EAF0A8F421057BC300ADC972 /* ExcelVC.h */,
+				EAF0A8F521057BC300ADC972 /* ExcelVC.m */,
+				EAF0A8F72105C1F200ADC972 /* ExcelShareItem.h */,
+				EAF0A8F82105C1F200ADC972 /* ExcelShareItem.m */,
+			);
+			path = "Excel生成 系统分享";
+			sourceTree = "<group>";
+		};
+		EAF954E321080C6A000F3A43 /* TextKit */ = {
+			isa = PBXGroup;
+			children = (
+				EAF954E421080CA0000F3A43 /* TextKitDemoVC.h */,
+				EAF954E521080CA0000F3A43 /* TextKitDemoVC.m */,
+			);
+			path = TextKit;
+			sourceTree = "<group>";
+		};
 		FCA48D6FAEA5A167DF3B9D93 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -490,7 +563,6 @@
 				EA9A55C2205FCF4D00056346 /* Sources */,
 				EA9A55C3205FCF4D00056346 /* Frameworks */,
 				EA9A55C4205FCF4D00056346 /* Resources */,
-				130A06BD96DAD56C81976932 /* [CP] Embed Pods Frameworks */,
 				7AE6BE8377573AAA4DE0C800 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -592,6 +664,7 @@
 				EA14583B206F125700EAF442 /* VCLayerTimeLine.xib in Resources */,
 				EA145828206E38CC00EAF442 /* HomeCell.xib in Resources */,
 				EA9A55D3205FCF4E00056346 /* Assets.xcassets in Resources */,
+				EADC51F8213D16420090408B /* VCTest.xib in Resources */,
 				EAD00DEB2087A5A00085131E /* BluetoothCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -619,28 +692,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS-OC-Project-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		130A06BD96DAD56C81976932 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS-OC-Project/Pods-iOS-OC-Project-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7AE6BE8377573AAA4DE0C800 /* [CP] Copy Pods Resources */ = {
@@ -649,9 +710,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iOS-OC-Project/Pods-iOS-OC-Project-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -672,6 +736,7 @@
 				EA54433D207A18E300D7B39D /* WaterWaveLayer.m in Sources */,
 				EA544343207A2C1000D7B39D /* RDWave.m in Sources */,
 				EA9A55FE205FD5C600056346 /* PageView.m in Sources */,
+				EAC188AE212EB6A300462512 /* UIView+SIX.m in Sources */,
 				EA54433A207A17D000D7B39D /* WaterWaveView.m in Sources */,
 				EAD00DE220879ABD0085131E /* UIApplication+SIX.m in Sources */,
 				EA9A55D9205FCF4E00056346 /* main.m in Sources */,
@@ -679,8 +744,11 @@
 				EA4808F82063BDDC0089EA3E /* ARScanView.m in Sources */,
 				EA145806206C706200EAF442 /* HomeVC.m in Sources */,
 				EA14582B206E447C00EAF442 /* NavigationController.m in Sources */,
+				EAF954E621080CA0000F3A43 /* TextKitDemoVC.m in Sources */,
 				EA145810206C8B5A00EAF442 /* TabBarController.m in Sources */,
+				EAC1889A212EA89600462512 /* VCTest.m in Sources */,
 				EADE41EC207863C400C5A733 /* WaveView.m in Sources */,
+				EAC188A2212EB31000462512 /* SIXConst.m in Sources */,
 				EADE41EF207863DF00C5A733 /* WaveVC.m in Sources */,
 				EA145833206E4D8900EAF442 /* TimeLineLayer.m in Sources */,
 				EA14581A206D046C00EAF442 /* ShowVC.m in Sources */,
@@ -691,7 +759,9 @@
 				EA145816206C97F800EAF442 /* HomeModel.m in Sources */,
 				EADE41E9207863A000C5A733 /* WaveLayer.m in Sources */,
 				EA4808FE2063CAEC0089EA3E /* VCARScan.m in Sources */,
+				EAF0A8F621057BC300ADC972 /* ExcelVC.m in Sources */,
 				EA3669E6207AF29A00138A42 /* MHPTitleBar.m in Sources */,
+				EAF0A8F92105C1F200ADC972 /* ExcelShareItem.m in Sources */,
 				EA14580C206C7CD300EAF442 /* UIColor+SIX.m in Sources */,
 				EA14583A206F125700EAF442 /* VCLayerTimeLine.m in Sources */,
 				EA544344207A2C1000D7B39D /* RDWaveView.m in Sources */,
