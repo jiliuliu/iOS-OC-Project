@@ -22,6 +22,9 @@
 		EA145833206E4D8900EAF442 /* TimeLineLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EA145832206E4D8900EAF442 /* TimeLineLayer.m */; };
 		EA14583A206F125700EAF442 /* VCLayerTimeLine.m in Sources */ = {isa = PBXBuildFile; fileRef = EA145838206F125700EAF442 /* VCLayerTimeLine.m */; };
 		EA14583B206F125700EAF442 /* VCLayerTimeLine.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA145839206F125700EAF442 /* VCLayerTimeLine.xib */; };
+		EA329649218D666C00C57411 /* HitVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA329648218D666C00C57411 /* HitVC.m */; };
+		EA32964C218D67DF00C57411 /* UIView+Hit.m in Sources */ = {isa = PBXBuildFile; fileRef = EA32964B218D67DF00C57411 /* UIView+Hit.m */; };
+		EA32964F218D6B4400C57411 /* SIXRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = EA32964E218D6B4400C57411 /* SIXRuntime.m */; };
 		EA3669E6207AF29A00138A42 /* MHPTitleBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3669E5207AF29A00138A42 /* MHPTitleBar.m */; };
 		EA4808F82063BDDC0089EA3E /* ARScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4808F72063BDDC0089EA3E /* ARScanView.m */; };
 		EA4808FB2063CAA30089EA3E /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4808FA2063CAA30089EA3E /* PageViewController.m */; };
@@ -38,6 +41,9 @@
 		EA9A55E3205FCF4E00056346 /* iOS_OC_ProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9A55E2205FCF4E00056346 /* iOS_OC_ProjectTests.m */; };
 		EA9A55EE205FCF4E00056346 /* iOS_OC_ProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9A55ED205FCF4E00056346 /* iOS_OC_ProjectUITests.m */; };
 		EA9A55FE205FD5C600056346 /* PageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9A55FD205FD5C600056346 /* PageView.m */; };
+		EAB0DC3621BCE26A003A0EDE /* TitleCollectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB0DC3521BCE26A003A0EDE /* TitleCollectionController.m */; };
+		EAB0DC3A21BCF3AB003A0EDE /* TitleCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB0DC3921BCF3AB003A0EDE /* TitleCollectionCell.m */; };
+		EAB0DC3D21BCF3EB003A0EDE /* TitleCollectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB0DC3C21BCF3EB003A0EDE /* TitleCollectionHeaderView.m */; };
 		EAC1889A212EA89600462512 /* VCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC18899212EA89600462512 /* VCTest.m */; };
 		EAC188A2212EB31000462512 /* SIXConst.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC188A1212EB31000462512 /* SIXConst.m */; };
 		EAC188AE212EB6A300462512 /* UIView+SIX.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC188AD212EB6A300462512 /* UIView+SIX.m */; };
@@ -104,6 +110,12 @@
 		EA145837206F125700EAF442 /* VCLayerTimeLine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VCLayerTimeLine.h; sourceTree = "<group>"; };
 		EA145838206F125700EAF442 /* VCLayerTimeLine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCLayerTimeLine.m; sourceTree = "<group>"; };
 		EA145839206F125700EAF442 /* VCLayerTimeLine.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VCLayerTimeLine.xib; sourceTree = "<group>"; };
+		EA329647218D666C00C57411 /* HitVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HitVC.h; sourceTree = "<group>"; };
+		EA329648218D666C00C57411 /* HitVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HitVC.m; sourceTree = "<group>"; };
+		EA32964A218D67DF00C57411 /* UIView+Hit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Hit.h"; sourceTree = "<group>"; };
+		EA32964B218D67DF00C57411 /* UIView+Hit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Hit.m"; sourceTree = "<group>"; };
+		EA32964D218D6B4300C57411 /* SIXRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIXRuntime.h; sourceTree = "<group>"; };
+		EA32964E218D6B4400C57411 /* SIXRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIXRuntime.m; sourceTree = "<group>"; };
 		EA3669E4207AF29A00138A42 /* MHPTitleBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHPTitleBar.h; sourceTree = "<group>"; };
 		EA3669E5207AF29A00138A42 /* MHPTitleBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHPTitleBar.m; sourceTree = "<group>"; };
 		EA4808F62063BDDC0089EA3E /* ARScanView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARScanView.h; sourceTree = "<group>"; };
@@ -137,6 +149,12 @@
 		EA9A55EF205FCF4E00056346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA9A55FC205FD5C600056346 /* PageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageView.h; sourceTree = "<group>"; };
 		EA9A55FD205FD5C600056346 /* PageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageView.m; sourceTree = "<group>"; };
+		EAB0DC3421BCE26A003A0EDE /* TitleCollectionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TitleCollectionController.h; sourceTree = "<group>"; };
+		EAB0DC3521BCE26A003A0EDE /* TitleCollectionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TitleCollectionController.m; sourceTree = "<group>"; };
+		EAB0DC3821BCF3AB003A0EDE /* TitleCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TitleCollectionCell.h; sourceTree = "<group>"; };
+		EAB0DC3921BCF3AB003A0EDE /* TitleCollectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TitleCollectionCell.m; sourceTree = "<group>"; };
+		EAB0DC3B21BCF3EB003A0EDE /* TitleCollectionHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TitleCollectionHeaderView.h; sourceTree = "<group>"; };
+		EAB0DC3C21BCF3EB003A0EDE /* TitleCollectionHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TitleCollectionHeaderView.m; sourceTree = "<group>"; };
 		EAC18898212EA89600462512 /* VCTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VCTest.h; sourceTree = "<group>"; };
 		EAC18899212EA89600462512 /* VCTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCTest.m; sourceTree = "<group>"; };
 		EAC188A0212EB31000462512 /* SIXConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SIXConst.h; sourceTree = "<group>"; };
@@ -328,6 +346,25 @@
 			name = core;
 			sourceTree = "<group>";
 		};
+		EA329645218D65E700C57411 /* optimizations */ = {
+			isa = PBXGroup;
+			children = (
+				EA329646218D660200C57411 /* 响应链 */,
+			);
+			path = optimizations;
+			sourceTree = "<group>";
+		};
+		EA329646218D660200C57411 /* 响应链 */ = {
+			isa = PBXGroup;
+			children = (
+				EA32964A218D67DF00C57411 /* UIView+Hit.h */,
+				EA32964B218D67DF00C57411 /* UIView+Hit.m */,
+				EA329647218D666C00C57411 /* HitVC.h */,
+				EA329648218D666C00C57411 /* HitVC.m */,
+			);
+			path = "响应链";
+			sourceTree = "<group>";
+		};
 		EA4808F52063BD9D0089EA3E /* 支付宝AR扫描 */ = {
 			isa = PBXGroup;
 			children = (
@@ -388,6 +425,7 @@
 				EA1457F8206C694F00EAF442 /* Animation */,
 				EAD00DD7208795F50085131E /* Scenes */,
 				EAD00DD22087930D0085131E /* Test */,
+				EA329645218D65E700C57411 /* optimizations */,
 				EA1457F9206C699900EAF442 /* Support Files */,
 			);
 			path = "iOS-OC-Project";
@@ -422,6 +460,27 @@
 				EA4808FA2063CAA30089EA3E /* PageViewController.m */,
 			);
 			path = "微博个人主页";
+			sourceTree = "<group>";
+		};
+		EAB0DC3021BCE07F003A0EDE /* CollectionView经典样式 */ = {
+			isa = PBXGroup;
+			children = (
+				EAB0DC3721BCF372003A0EDE /* TitleCollection */,
+			);
+			path = "CollectionView经典样式";
+			sourceTree = "<group>";
+		};
+		EAB0DC3721BCF372003A0EDE /* TitleCollection */ = {
+			isa = PBXGroup;
+			children = (
+				EAB0DC3421BCE26A003A0EDE /* TitleCollectionController.h */,
+				EAB0DC3521BCE26A003A0EDE /* TitleCollectionController.m */,
+				EAB0DC3821BCF3AB003A0EDE /* TitleCollectionCell.h */,
+				EAB0DC3921BCF3AB003A0EDE /* TitleCollectionCell.m */,
+				EAB0DC3B21BCF3EB003A0EDE /* TitleCollectionHeaderView.h */,
+				EAB0DC3C21BCF3EB003A0EDE /* TitleCollectionHeaderView.m */,
+			);
+			path = TitleCollection;
 			sourceTree = "<group>";
 		};
 		EAC1889B212EA9A700462512 /* chaos */ = {
@@ -465,6 +524,7 @@
 		EAD00DD7208795F50085131E /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				EAB0DC3021BCE07F003A0EDE /* CollectionView经典样式 */,
 				EA0AB15B2183FD530097DEA8 /* 今日头条首页 */,
 				EAF954E321080C6A000F3A43 /* TextKit */,
 				EA9A55FB205FD10300056346 /* 微博个人主页 */,
@@ -486,6 +546,8 @@
 			children = (
 				EAD00DDD2087992D0085131E /* Helper.h */,
 				EAD00DDE2087992D0085131E /* Helper.m */,
+				EA32964D218D6B4300C57411 /* SIXRuntime.h */,
+				EA32964E218D6B4400C57411 /* SIXRuntime.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -712,10 +774,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-iOS-OC-Project/Pods-iOS-OC-Project-resources.sh",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SIXRichEditor/SIXEditor/SIXEditor.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SIXEditor.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -745,11 +809,14 @@
 				EA145806206C706200EAF442 /* HomeVC.m in Sources */,
 				EA14582B206E447C00EAF442 /* NavigationController.m in Sources */,
 				EAF954E621080CA0000F3A43 /* TextKitDemoVC.m in Sources */,
+				EAB0DC3D21BCF3EB003A0EDE /* TitleCollectionHeaderView.m in Sources */,
+				EA32964C218D67DF00C57411 /* UIView+Hit.m in Sources */,
 				EA145810206C8B5A00EAF442 /* TabBarController.m in Sources */,
 				EAC1889A212EA89600462512 /* VCTest.m in Sources */,
 				EADE41EC207863C400C5A733 /* WaveView.m in Sources */,
 				EAC188A2212EB31000462512 /* SIXConst.m in Sources */,
 				EADE41EF207863DF00C5A733 /* WaveVC.m in Sources */,
+				EA329649218D666C00C57411 /* HitVC.m in Sources */,
 				EA145833206E4D8900EAF442 /* TimeLineLayer.m in Sources */,
 				EA14581A206D046C00EAF442 /* ShowVC.m in Sources */,
 				EA9A55CB205FCF4E00056346 /* AppDelegate.m in Sources */,
@@ -760,8 +827,11 @@
 				EADE41E9207863A000C5A733 /* WaveLayer.m in Sources */,
 				EA4808FE2063CAEC0089EA3E /* VCARScan.m in Sources */,
 				EAF0A8F621057BC300ADC972 /* ExcelVC.m in Sources */,
+				EA32964F218D6B4400C57411 /* SIXRuntime.m in Sources */,
 				EA3669E6207AF29A00138A42 /* MHPTitleBar.m in Sources */,
 				EAF0A8F92105C1F200ADC972 /* ExcelShareItem.m in Sources */,
+				EAB0DC3621BCE26A003A0EDE /* TitleCollectionController.m in Sources */,
+				EAB0DC3A21BCF3AB003A0EDE /* TitleCollectionCell.m in Sources */,
 				EA14580C206C7CD300EAF442 /* UIColor+SIX.m in Sources */,
 				EA14583A206F125700EAF442 /* VCLayerTimeLine.m in Sources */,
 				EA544344207A2C1000D7B39D /* RDWaveView.m in Sources */,

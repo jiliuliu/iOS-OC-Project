@@ -46,6 +46,8 @@
             _viewModel.totalData = [HomeModel scenes];
         } else if (index == 2) {
             _viewModel.totalData = [HomeModel tests];
+        } else if (index == 3) {
+            _viewModel.totalData = [HomeModel optimizations];
         }
     }
     return _viewModel;

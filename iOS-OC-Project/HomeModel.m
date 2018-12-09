@@ -26,8 +26,9 @@ NSString * const HMVCName = @"vcName";
 }
 
 + (NSDictionary *)scenes {
-    return @{HMSectionTitles: @[@"TextKit"],
+    return @{HMSectionTitles: @[@"TextKit", @"UICollectionView经典样式"],
              @"TextKit": @[@"TextKitDemoVC"],
+             @"UICollectionView经典样式": @[@"TitleCollectionController"],
              };
 }
 
@@ -38,10 +39,9 @@ NSString * const HMVCName = @"vcName";
 }
 
 + (NSDictionary *)optimizations {
-    return nil;
-//    return @{HMSectionTitles: @[@"功能"],
-//             @"功能": @[@"BluetoothVC"],
-//             };
+    return @{HMSectionTitles: @[@"响应链"],
+             @"响应链": @[@"HitVC"],
+             };
 }
 
 @end

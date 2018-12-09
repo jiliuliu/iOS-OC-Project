@@ -1,20 +1,24 @@
 PODS:
-  - MJRefresh (3.1.15.1)
-  - SIXRichEditor (1.0.2)
+  - Masonry (1.1.0)
+  - MJRefresh (3.1.15.7)
+  - SIXRichEditor (1.0.4)
 
 DEPENDENCIES:
+  - Masonry
   - MJRefresh
   - SIXRichEditor
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Masonry
     - MJRefresh
     - SIXRichEditor
 
 SPEC CHECKSUMS:
-  MJRefresh: 5f8552bc25ca8751c010f621c1098dbdaacbccd6
-  SIXRichEditor: 272018895fd81fef02f98e0359a42397591a49a8
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+  SIXRichEditor: 0d74396675d3d804a70ccb7955e101c50313024b
 
-PODFILE CHECKSUM: 6ebfda3a87193362c78d9a2d71515d0c99cdc6a6
+PODFILE CHECKSUM: bf6e28bdb54e5c0d967ff136fedc4ac1c2f2f977
 
 COCOAPODS: 1.5.2

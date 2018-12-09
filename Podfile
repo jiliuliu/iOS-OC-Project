@@ -5,4 +5,6 @@ inhibit_all_warnings!
 
 pod 'MJRefresh'
 pod 'SIXRichEditor'
+pod 'Masonry'
+
 end

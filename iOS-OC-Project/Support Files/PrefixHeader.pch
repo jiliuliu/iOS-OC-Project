@@ -17,4 +17,6 @@
 #import "UIView+SIX.h"
 #import "SIXConst.h"
 
+#import <Masonry.h>
+
 #endif /* PrefixHeader_pch */

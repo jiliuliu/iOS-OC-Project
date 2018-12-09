@@ -6,8 +6,8 @@
 //  Copyright © 2018年 liujiliu. All rights reserved.
 //
 
-#import "ShowVC.h"
+#import "TitleCollectionController.h"
 
-@interface VCTest : ShowVC
+@interface VCTest : TitleCollectionController
 
 @end
