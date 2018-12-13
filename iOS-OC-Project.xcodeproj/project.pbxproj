@@ -22,6 +22,7 @@
 		EA145833206E4D8900EAF442 /* TimeLineLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EA145832206E4D8900EAF442 /* TimeLineLayer.m */; };
 		EA14583A206F125700EAF442 /* VCLayerTimeLine.m in Sources */ = {isa = PBXBuildFile; fileRef = EA145838206F125700EAF442 /* VCLayerTimeLine.m */; };
 		EA14583B206F125700EAF442 /* VCLayerTimeLine.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA145839206F125700EAF442 /* VCLayerTimeLine.xib */; };
+		EA172DA521C2BC660052A027 /* RDWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA172DA421C2BC660052A027 /* RDWaveView.m */; };
 		EA329649218D666C00C57411 /* HitVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA329648218D666C00C57411 /* HitVC.m */; };
 		EA32964C218D67DF00C57411 /* UIView+Hit.m in Sources */ = {isa = PBXBuildFile; fileRef = EA32964B218D67DF00C57411 /* UIView+Hit.m */; };
 		EA32964F218D6B4400C57411 /* SIXRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = EA32964E218D6B4400C57411 /* SIXRuntime.m */; };
@@ -33,7 +34,6 @@
 		EA54433A207A17D000D7B39D /* WaterWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA544339207A17D000D7B39D /* WaterWaveView.m */; };
 		EA54433D207A18E300D7B39D /* WaterWaveLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EA54433C207A18E300D7B39D /* WaterWaveLayer.m */; };
 		EA544343207A2C1000D7B39D /* RDWave.m in Sources */ = {isa = PBXBuildFile; fileRef = EA544340207A2C0F00D7B39D /* RDWave.m */; };
-		EA544344207A2C1000D7B39D /* RDWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA544341207A2C0F00D7B39D /* RDWaveView.m */; };
 		EA9A55CB205FCF4E00056346 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9A55CA205FCF4E00056346 /* AppDelegate.m */; };
 		EA9A55D3205FCF4E00056346 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA9A55D2205FCF4E00056346 /* Assets.xcassets */; };
 		EA9A55D6205FCF4E00056346 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA9A55D4205FCF4E00056346 /* LaunchScreen.storyboard */; };
@@ -110,6 +110,8 @@
 		EA145837206F125700EAF442 /* VCLayerTimeLine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VCLayerTimeLine.h; sourceTree = "<group>"; };
 		EA145838206F125700EAF442 /* VCLayerTimeLine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCLayerTimeLine.m; sourceTree = "<group>"; };
 		EA145839206F125700EAF442 /* VCLayerTimeLine.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VCLayerTimeLine.xib; sourceTree = "<group>"; };
+		EA172DA321C2BC660052A027 /* RDWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDWaveView.h; sourceTree = "<group>"; };
+		EA172DA421C2BC660052A027 /* RDWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDWaveView.m; sourceTree = "<group>"; };
 		EA329647218D666C00C57411 /* HitVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HitVC.h; sourceTree = "<group>"; };
 		EA329648218D666C00C57411 /* HitVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HitVC.m; sourceTree = "<group>"; };
 		EA32964A218D67DF00C57411 /* UIView+Hit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Hit.h"; sourceTree = "<group>"; };
@@ -130,9 +132,7 @@
 		EA544339207A17D000D7B39D /* WaterWaveView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterWaveView.m; sourceTree = "<group>"; };
 		EA54433B207A18E300D7B39D /* WaterWaveLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaterWaveLayer.h; sourceTree = "<group>"; };
 		EA54433C207A18E300D7B39D /* WaterWaveLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterWaveLayer.m; sourceTree = "<group>"; };
-		EA54433F207A2C0F00D7B39D /* RDWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RDWaveView.h; path = ../../../../RDWave/RDWave/RDWaveView.h; sourceTree = "<group>"; };
 		EA544340207A2C0F00D7B39D /* RDWave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDWave.m; sourceTree = "<group>"; };
-		EA544341207A2C0F00D7B39D /* RDWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RDWaveView.m; path = ../../../../RDWave/RDWave/RDWaveView.m; sourceTree = "<group>"; };
 		EA544342207A2C1000D7B39D /* RDWave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDWave.h; sourceTree = "<group>"; };
 		EA9A55C6205FCF4D00056346 /* iOS-OC-Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-OC-Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA9A55C9205FCF4E00056346 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -378,10 +378,10 @@
 		EA54433E207A2BD700D7B39D /* core2 */ = {
 			isa = PBXGroup;
 			children = (
+				EA172DA321C2BC660052A027 /* RDWaveView.h */,
+				EA172DA421C2BC660052A027 /* RDWaveView.m */,
 				EA544342207A2C1000D7B39D /* RDWave.h */,
 				EA544340207A2C0F00D7B39D /* RDWave.m */,
-				EA54433F207A2C0F00D7B39D /* RDWaveView.h */,
-				EA544341207A2C0F00D7B39D /* RDWaveView.m */,
 			);
 			name = core2;
 			sourceTree = "<group>";
@@ -824,6 +824,7 @@
 				EAD00DDF2087992D0085131E /* Helper.m in Sources */,
 				EA14581D206D049F00EAF442 /* UIViewController+SIX.m in Sources */,
 				EA145816206C97F800EAF442 /* HomeModel.m in Sources */,
+				EA172DA521C2BC660052A027 /* RDWaveView.m in Sources */,
 				EADE41E9207863A000C5A733 /* WaveLayer.m in Sources */,
 				EA4808FE2063CAEC0089EA3E /* VCARScan.m in Sources */,
 				EAF0A8F621057BC300ADC972 /* ExcelVC.m in Sources */,
@@ -834,7 +835,6 @@
 				EAB0DC3A21BCF3AB003A0EDE /* TitleCollectionCell.m in Sources */,
 				EA14580C206C7CD300EAF442 /* UIColor+SIX.m in Sources */,
 				EA14583A206F125700EAF442 /* VCLayerTimeLine.m in Sources */,
-				EA544344207A2C1000D7B39D /* RDWaveView.m in Sources */,
 				EA145827206E38CC00EAF442 /* HomeCell.m in Sources */,
 				EA4808FB2063CAA30089EA3E /* PageViewController.m in Sources */,
 			);
